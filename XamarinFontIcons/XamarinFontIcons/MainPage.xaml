@@ -22,7 +22,7 @@
             </Button>
             <Image BackgroundColor="#D1D1D1">
                 <Image.Source>
-                    <FontImageSource FontFamily="{StaticResource FontAwesomeRegularOTF}" Glyph="&#xf2bb;" Size="44" />
+                    <FontImageSource FontFamily="{StaticResource FontAwesomeRegularOTF}" Glyph="&#xf2bb;" Size="44" Color="Red" />
                 </Image.Source>
             </Image>
         </StackLayout>
@@ -36,7 +36,7 @@
             </Button>
             <Image BackgroundColor="#D1D1D1">
                 <Image.Source>
-                    <FontImageSource FontFamily="{StaticResource FontAwesomeRegularTTF}" Glyph="&#xf2bb;" Size="44" />
+                    <FontImageSource FontFamily="{StaticResource FontAwesomeRegularTTF}" Glyph="&#xf2bb;" Size="44" Color="Red" />
                 </Image.Source>
             </Image>
         </StackLayout>
