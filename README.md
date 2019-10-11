@@ -1,12 +1,16 @@
-# Xamarin display font icons
+# Using font icons in Xamarin.Forms
 
-Description
+Test and example of using font icon in Xamarin.Forms
+
+See also:
+* James Montemagno [Using Font Icons in Xamarin.Forms: Goodbye Images, Hello Fonts!](https://montemagno.com/using-font-icons-in-xamarin-forms-goodbye-images-hello-fonts/)
+* Sebastian Jensen [Use FontAwesome in a Xamarin.Forms app](https://medium.com/@tsjdevapps/use-fontawesome-in-a-xamarin-forms-app-2edf25311db4)
+* [Font Awesome](https://fontawesome.com/)
+
 
 ## Change log
 
-These are the changes to each version that has been released
-on the official Visual Studio extension gallery.
+- [x] Test using fonts on multiple Xamarin platforms
+- [x] FontImageSource in WPF (fixed in nightly build Xamarin.Forms)
 
-- [ ] Add 
-- [ ] Feature 4
 
