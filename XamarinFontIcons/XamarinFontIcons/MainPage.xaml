@@ -15,9 +15,9 @@
         <StackLayout Grid.Column="0" Orientation="Vertical">
             <Label Text="TTF Font" HorizontalOptions="CenterAndExpand"/>
             <Label FontFamily="{StaticResource FontAwesomeRegularOTF}" Text="&#xf2bb;" FontSize="Large" HorizontalOptions="CenterAndExpand" />
-            <Button Text="Contact" >
+            <Button Text="Contact" ContentLayout="Top,10">
                 <Button.ImageSource>
-                    <FontImageSource  FontFamily="{StaticResource FontAwesomeRegularOTF}" Glyph="&#xf2bb;" />
+                    <FontImageSource FontFamily="{StaticResource FontAwesomeRegularOTF}" Glyph="&#xf2bb;" />
                 </Button.ImageSource>
             </Button>
             <Button x:Name="btnContactOtf" Text="Contact code" />
@@ -30,9 +30,9 @@
         <StackLayout Grid.Column="1" Orientation="Vertical">
             <Label Text="OTF Font" HorizontalOptions="CenterAndExpand"/>
             <Label FontFamily="{StaticResource FontAwesomeRegularTTF}" Text="&#xf2bb;" FontSize="Large" HorizontalOptions="CenterAndExpand" />
-            <Button Text="Contact" >
+            <Button Text="Contact" ContentLayout="Top,10">
                 <Button.ImageSource>
-                    <FontImageSource  FontFamily="{StaticResource FontAwesomeRegularTTF}" Glyph="&#xf2bb;" />
+                    <FontImageSource FontFamily="{StaticResource FontAwesomeRegularTTF}" Glyph="&#xf2bb;" />
                 </Button.ImageSource>
             </Button>
             <Button x:Name="btnContactTtf" Text="Contact code" />
