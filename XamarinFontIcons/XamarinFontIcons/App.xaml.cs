@@ -11,7 +11,11 @@ namespace XamarinFontIcons
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.Red,
+                Title = "Test title"
+            };
         }
 
         protected override void OnStart()

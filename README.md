@@ -11,6 +11,6 @@ See also:
 ## Change log
 
 - [x] Test using fonts on multiple Xamarin platforms
-- [x] FontImageSource in WPF (fixed in nightly build Xamarin.Forms)
+- [ ] FontImageSource in WPF [BUG - fixed in nightly build Xamarin.Forms, will be in 4.4.0](https://github.com/xamarin/Xamarin.Forms/issues/7320)
 
 

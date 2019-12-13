@@ -20,6 +20,7 @@
                     <FontImageSource  FontFamily="{StaticResource FontAwesomeRegularOTF}" Glyph="&#xf2bb;" />
                 </Button.ImageSource>
             </Button>
+            <Button x:Name="btnContactOtf" Text="Contact code" />
             <Image BackgroundColor="#D1D1D1">
                 <Image.Source>
                     <FontImageSource FontFamily="{StaticResource FontAwesomeRegularOTF}" Glyph="&#xf2bb;" Size="44" Color="Red" />
@@ -34,6 +35,7 @@
                     <FontImageSource  FontFamily="{StaticResource FontAwesomeRegularTTF}" Glyph="&#xf2bb;" />
                 </Button.ImageSource>
             </Button>
+            <Button x:Name="btnContactTtf" Text="Contact code" />
             <Image BackgroundColor="#D1D1D1">
                 <Image.Source>
                     <FontImageSource FontFamily="{StaticResource FontAwesomeRegularTTF}" Glyph="&#xf2bb;" Size="44" Color="Red" />

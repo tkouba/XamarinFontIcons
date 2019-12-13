@@ -12,6 +12,22 @@ namespace XamarinFontIcons
         public MainPage()
         {
             InitializeComponent();
+            Title = "Main page title";
+            string fontFamily = (Xamarin.Forms.OnPlatform<string>)Xamarin.Forms.Application.Current.Resources["FontAwesomeRegularOTF"]; 
+            string glyph = "\uf2bb";
+            btnContactOtf.ImageSource = new FontImageSource()
+            {
+                FontFamily = fontFamily,
+                Glyph = glyph,
+                Color = btnContactOtf.TextColor
+            };
+            fontFamily = (Xamarin.Forms.OnPlatform<string>)Xamarin.Forms.Application.Current.Resources["FontAwesomeRegularTTF"];
+            btnContactTtf.ImageSource = new FontImageSource()
+            {
+                FontFamily = fontFamily,
+                Glyph = glyph,
+                Color = btnContactTtf.TextColor
+            };
         }
     }
 }

@@ -25,7 +25,7 @@ namespace XamarinFontIcons.WPF
         public MainWindow()
         {
             InitializeComponent();
-
+            Title = "WPF window title";
             Forms.Init();
             LoadApplication(new XamarinFontIcons.App());
         }

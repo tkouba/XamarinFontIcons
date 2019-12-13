@@ -6,15 +6,15 @@
         <ResourceDictionary>
             <!-- Fonts -->
             <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeRegularOTF">
-                <On Platform="Android" Value="FontAwesome5FreeRegular.otf#Regular" />
-                <On Platform="WPF" Value="Assets/Fonts/FontAwesome5FreeRegular.otf#Font Awesome 5 Free" />
+                <On Platform="Android" Value="Fonts/FontAwesome5FreeRegular.otf#Regular" />
+                <On Platform="WPF" Value="Assets/Fonts/FontAwesome5FreeRegular.otf#Font Awesome 5 Free Regular" />
                 <On Platform="iOS" Value="FontAwesome5Free-Regular" />
                 <On Platform="UWP" Value="/Assets/Fonts/FontAwesome5FreeRegular.otf#Font Awesome 5 Free" />
             </OnPlatform>
 
             <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeRegularTTF">
-                <On Platform="Android" Value="FontAwesome5FreeRegular.ttf#Regular" />
-                <On Platform="WPF" Value="Assets/Fonts/FontAwesome5FreeRegular.ttf#Font Awesome 5 Free" />
+                <On Platform="Android" Value="Fonts/FontAwesome5FreeRegular.ttf#Regular" />
+                <On Platform="WPF" Value="Assets/Fonts/FontAwesome5FreeRegular.ttf#Font Awesome 5 Free Regular" />
                 <On Platform="iOS" Value="FontAwesome5Free-Regular" />
                 <On Platform="UWP" Value="/Assets/Fonts/FontAwesome5FreeRegular.ttf#Font Awesome 5 Free" />
             </OnPlatform>
